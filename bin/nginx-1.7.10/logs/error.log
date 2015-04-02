@@ -1,0 +1,3 @@
+2015/04/02 14:55:47 [emerg] 26913#0: host not found in url "rtmp1.example.com" in /home/archer/Documents/LibstreamRTSPServer/bin/nginx-1.7.10/conf/nginx.conf:80
+2015/04/02 14:56:23 [emerg] 26962#0: host not found in url "rtmp4.example.com" in /home/archer/Documents/LibstreamRTSPServer/bin/nginx-1.7.10/conf/nginx.conf:78
+2015/04/02 14:56:34 [emerg] 26969#0: no "events" section in configuration
