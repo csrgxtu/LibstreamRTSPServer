@@ -5,3 +5,5 @@
 [Real Time Messaging Protocol](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol)
 
 [Learning rtmpdump Through Examples](http://pclosmag.com/html/issues/201104/page19.html)
+
+[C++ RTMP Server](http://www.rtmpd.com/)
