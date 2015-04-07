@@ -7,3 +7,5 @@
 [Learning rtmpdump Through Examples](http://pclosmag.com/html/issues/201104/page19.html)
 
 [C++ RTMP Server](http://www.rtmpd.com/)
+
+[Real Time Streaming Protocol (RTSP))(http://www.informit.com/articles/article.aspx?p=169578&seqNum=3)
