@@ -20,3 +20,5 @@ FFmpeg rtsp 2 rtmp -- ./ffmpeg -i rtsp://192.168.10.93:1234 -f flv -an rtmp://12
 [Nginx RTMP Tut](https://github.com/arut/nginx-rtmp-module/wiki/Tutorial)
 
 [Wiki Real Time Messaging Protocol](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol)
+
+[Streaming Video with RTSP and RTP](http://www.csee.umbc.edu/~pmundur/courses/CMSC691C/lab5-kurose-ross.html)
