@@ -1,0 +1,67 @@
+04-08 10:34:52.286: I/RtspServer(27628): Connection from 192.168.10.100
+04-08 10:34:52.286: E/RtspServer(27628): OPTIONS rtsp://192.168.10.93:1234
+04-08 10:34:52.286: D/RtspServer(27628): RTSP/1.0 200 OK
+04-08 10:34:52.286: D/RtspServer(27628): Server: MajorKernelPanic RTSP Server
+04-08 10:34:52.286: D/RtspServer(27628): Cseq: 2
+04-08 10:34:52.286: D/RtspServer(27628): Content-Length: 0
+04-08 10:34:52.286: D/RtspServer(27628): Public: DESCRIBE,SETUP,TEARDOWN,PLAY,PAUSE
+04-08 10:34:52.296: E/RtspServer(27628): DESCRIBE rtsp://192.168.10.93:1234
+04-08 10:34:53.046: D/MP4Config(27628): SPS: Z0KAFNoLE5A=
+04-08 10:34:53.046: D/MP4Config(27628): PPS: aM4G4g==
+04-08 10:34:53.051: D/RtspServer(27628): RTSP/1.0 200 OK
+04-08 10:34:53.051: D/RtspServer(27628): Server: MajorKernelPanic RTSP Server
+04-08 10:34:53.051: D/RtspServer(27628): Cseq: 3
+04-08 10:34:53.051: D/RtspServer(27628): Content-Length: 267
+04-08 10:34:53.051: D/RtspServer(27628): Content-Base: 192.168.10.93:1234/
+04-08 10:34:53.051: D/RtspServer(27628): Content-Type: application/sdp
+04-08 10:34:53.051: D/RtspServer(27628): v=0
+04-08 10:34:53.051: D/RtspServer(27628): o=- 0 0 IN IP4 192.168.10.93
+04-08 10:34:53.051: D/RtspServer(27628): s=Unnamed
+04-08 10:34:53.051: D/RtspServer(27628): i=N/A
+04-08 10:34:53.051: D/RtspServer(27628): c=IN IP4 192.168.10.100
+04-08 10:34:53.051: D/RtspServer(27628): t=0 0
+04-08 10:34:53.051: D/RtspServer(27628): a=recvonly
+04-08 10:34:53.051: D/RtspServer(27628): m=video 5006 RTP/AVP 96
+04-08 10:34:53.051: D/RtspServer(27628): a=rtpmap:96 H264/90000
+04-08 10:34:53.051: D/RtspServer(27628): a=fmtp:96 packetization-mode=1;profile-level-id=428014;sprop-parameter-sets=Z0KAFNoLE5A=,aM4G4g==;
+04-08 10:34:53.051: D/RtspServer(27628): a=control:trackID=1
+04-08 10:34:53.096: E/RtspServer(27628): SETUP 192.168.10.93:1234/trackID=1
+04-08 10:34:53.101: D/MP4Config(27628): PPS: aM4G4g==
+04-08 10:34:53.101: D/MP4Config(27628): SPS: Z0KAFNoLE5A=
+04-08 10:34:53.101: D/VideoStream(27628): Video encoded using the MediaCodec API with a buffer
+04-08 10:34:53.796: D/VideoStream(27628): Actual framerate: 31
+04-08 10:34:53.811: I/ACodec(27628):  [] Now uninitialized
+04-08 10:34:53.811: I/OMXClient(27628): Using client-side OMX mux.
+04-08 10:34:53.836: I/ACodec(27628): [OMX.Exynos.AVC.Encoder] Now Loaded
+04-08 10:34:53.841: I/ACodec(27628): setupVideoEncoder succeeded
+04-08 10:34:53.841: I/ACodec(27628): [OMX.Exynos.AVC.Encoder] Now Loaded->Idle
+04-08 10:34:53.856: D/VideoStream(27628): Stream configuration: FPS: 31 Width: 176 Height: 144
+04-08 10:34:53.856: D/H264Packetizer(27628): H264 packetizer started !
+04-08 10:34:53.856: D/RtspServer(27628): RTSP/1.0 200 OK
+04-08 10:34:53.856: D/RtspServer(27628): Server: MajorKernelPanic RTSP Server
+04-08 10:34:53.856: D/RtspServer(27628): Cseq: 4
+04-08 10:34:53.856: D/RtspServer(27628): Content-Length: 0
+04-08 10:34:53.856: D/RtspServer(27628): Transport: RTP/AVP/UDP;unicast;destination=192.168.10.100;client_port=5006-5007;server_port=57703-53928;ssrc=fe7dcaad;mode=play
+04-08 10:34:53.856: D/RtspServer(27628): Session: 1185d20035702ca
+04-08 10:34:53.856: D/RtspServer(27628): Cache-Control: no-cache
+04-08 10:34:53.866: I/ACodec(27628): [OMX.Exynos.AVC.Encoder] Now Idle->Executing
+04-08 10:34:53.871: I/ACodec(27628): [OMX.Exynos.AVC.Encoder] Now Executing
+04-08 10:34:53.886: I/MediaCodecInputStream(27628): {csd-1=java.nio.ByteArrayBuffer[position=0,limit=8,capacity=8], height=144, mime=video/avc, csd-0=java.nio.ByteArrayBuffer[position=0,limit=12,capacity=12], what=1869968451, width=176}
+04-08 10:34:54.021: E/RtspServer(27628): PLAY 192.168.10.93:1234/
+04-08 10:34:54.021: D/RtspServer(27628): RTSP/1.0 200 OK
+04-08 10:34:54.021: D/RtspServer(27628): Server: MajorKernelPanic RTSP Server
+04-08 10:34:54.021: D/RtspServer(27628): Cseq: 5
+04-08 10:34:54.021: D/RtspServer(27628): Content-Length: 0
+04-08 10:34:54.021: D/RtspServer(27628): RTP-Info: url=rtsp://192.168.10.93:1234/trackID=1;seq=0
+04-08 10:34:54.021: D/RtspServer(27628): Session: 1185d20035702ca
+04-08 10:34:58.411: E/RtspServer(27628): TEARDOWN 192.168.10.93:1234/
+04-08 10:34:58.411: D/RtspServer(27628): RTSP/1.0 200 OK
+04-08 10:34:58.411: D/RtspServer(27628): Server: MajorKernelPanic RTSP Server
+04-08 10:34:58.411: D/RtspServer(27628): Cseq: 6
+04-08 10:34:58.411: D/RtspServer(27628): Content-Length: 0
+04-08 10:34:58.901: D/H264Packetizer(27628): H264 packetizer stopped !
+04-08 10:34:58.901: I/ACodec(27628): [OMX.Exynos.AVC.Encoder] Now Executing->Idle
+04-08 10:34:58.911: I/ACodec(27628): [OMX.Exynos.AVC.Encoder] Now Idle->Loaded
+04-08 10:34:58.916: I/ACodec(27628): [OMX.Exynos.AVC.Encoder] Now Loaded
+04-08 10:34:58.916: I/ACodec(27628):  [OMX.Exynos.AVC.Encoder] Now uninitialized
+04-08 10:34:59.531: I/RtspServer(27628): Client disconnected
