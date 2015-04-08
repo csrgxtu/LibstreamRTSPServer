@@ -14,3 +14,5 @@
 [Real Time Streaming Protocol](http://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol)
 
 FFmpeg rtsp 2 rtmp -- ./ffmpeg -i rtsp://192.168.10.93:1234 -f flv rtmp://127.0.0.1:1935/live/what
+
+FFmpeg rtsp 2 rtmp -- ./ffmpeg -i rtsp://192.168.10.93:1234 -f flv -an rtmp://127.0.0.1:1935/live/what
