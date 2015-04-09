@@ -24,10 +24,10 @@ public class RtspClient {
   Socket socket = null;
 
   // socket output stream
-  OutputStream socketOut = null;
+  // OutputStream socketOut = null;
 
   // socket input stream
-  InputStream socketIn = null;
+  // InputStream socketIn = null;
 
   public RtspClient(String host, int port) {
     this.host = host;
@@ -35,8 +35,8 @@ public class RtspClient {
 
     try {
       this.socket = new Socket(host, port);
-      this.socketOut = this.socket.getOutputStream();
-      this.socketIn = this.socket.getInputStream();
+      // this.socketOut = this.socket.getOutputStream();
+      // this.socketIn = this.socket.getInputStream();
     } catch (IOException e) {
       System.exit(1);
     }
@@ -53,28 +53,38 @@ public class RtspClient {
   public String options() {
     String options = "OPTIONS rtsp://" + this.host + "/" + this.port
       + " RTSP/1.0\nCSeq: 1\n\n";
-    List<String> res = new ArrayList<String>();
+    // List<Integer> res = new ArrayList<Integer>();
+    OutputStream socketOut = null;
+    InputStream socketIn = null;
 
     System.out.println(options);
     try {
-      this.socketOut.write(options.getBytes());
-      this.socketOut.flush();
+      socketOut = this.socket.getOutputStream();
+      socketIn = this.socket.getInputStream();
+      socketOut.write(options.getBytes());
+      socketOut.flush();
 
       //this.socketIn.read();
       int data;
-      while ((data = this.socketIn.read()) != -1) {
-        // System.out.print((char)data);
+      while ((data = socketIn.read()) != -1) {
+        // System.out.print("INFO: in where");
+        System.out.print((char)data);
         // res += (char)data;
+        // res.add(data);
         // res = res + (char)data;
-        res.add((String)data);
       }
+      socketOut.close();
+      socketIn.close();
+      System.out.println("DEBUG: after where");
     } catch (IOException e) {
+      System.out.print("DEBUG: exception");
       System.exit(1);
     }
 
-    System.out.print(res.get(0));
+    System.out.print("DEBUG: fuck");
+    // System.out.print(res.size());
 
-    return res;
+    return null;
   }
 
   public String describe() {
