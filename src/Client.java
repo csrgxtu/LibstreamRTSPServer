@@ -8,7 +8,7 @@
  */
 public class Client {
   public static void main(String args[]) {
-    String host = "192.168.10.93";
+    String host = "192.168.10.126";
     int port = 1234;
     RtspClient client = new RtspClient(host, port);
     client.options();

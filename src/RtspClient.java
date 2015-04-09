@@ -10,6 +10,8 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.io.InputStream;
 import java.net.Socket;
+import java.util.ArrayList;
+import java.util.List;
 
 public class RtspClient {
   // rtsp server address
@@ -50,16 +52,29 @@ public class RtspClient {
 
   public String options() {
     String options = "OPTIONS rtsp://" + this.host + "/" + this.port
-      + " RTSP/1.0\nCSeq: 1";
+      + " RTSP/1.0\nCSeq: 1\n\n";
+    List<String> res = new ArrayList<String>();
 
     System.out.println(options);
     try {
       this.socketOut.write(options.getBytes());
       this.socketOut.flush();
+
+      //this.socketIn.read();
+      int data;
+      while ((data = this.socketIn.read()) != -1) {
+        // System.out.print((char)data);
+        // res += (char)data;
+        // res = res + (char)data;
+        res.add((String)data);
+      }
     } catch (IOException e) {
       System.exit(1);
     }
-    return null;
+
+    System.out.print(res.get(0));
+
+    return res;
   }
 
   public String describe() {
