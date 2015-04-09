@@ -11,16 +11,19 @@ import sys
 class RTSPClient(object):
   host = None
   port = None
+  streamName = None
   socket = None
   RTSPUrl = None
 
-  def __init__(self, host, port):
+  def __init__(self, host, port, stream=''):
     self.host = host
     self.port = port
-    self.RTSPUrl = 'rtsp://' + host + ':' + str(port)
+    self.streamName = stream
+    self.RTSPUrl = 'rtsp://' + host + ':' + str(port) + '/' + stream
+    # self.RTSPUrl = 'rtsp://' + host + '/' + stream
 
     self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    self.socket.settimeout(5)
+    self.socket.settimeout(10)
     res = self.socket.connect_ex((self.host, self.port))
     if res != 0:
       sys.exit(1)
@@ -32,7 +35,7 @@ class RTSPClient(object):
     if self.socket.send(options) != len(options):
       print 'ERROR: send error'
 
-    res = self.socket.recv(8192)
+    res = self.socket.recv(8192 * 2)
     print res
     return res
 
