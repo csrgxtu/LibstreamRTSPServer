@@ -131,3 +131,6 @@ class RTSPClient(object):
 
   def setPort(port):
     self.port = port
+
+  def close():
+    self.socket.close()
