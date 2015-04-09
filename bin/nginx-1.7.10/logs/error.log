@@ -1,3 +1,11 @@
 2015/04/02 14:55:47 [emerg] 26913#0: host not found in url "rtmp1.example.com" in /home/archer/Documents/LibstreamRTSPServer/bin/nginx-1.7.10/conf/nginx.conf:80
 2015/04/02 14:56:23 [emerg] 26962#0: host not found in url "rtmp4.example.com" in /home/archer/Documents/LibstreamRTSPServer/bin/nginx-1.7.10/conf/nginx.conf:78
 2015/04/02 14:56:34 [emerg] 26969#0: no "events" section in configuration
+2015/04/08 11:34:03 [alert] 7944#0: unknown process 8027 exited on signal 9
+2015/04/08 13:46:20 [notice] 10195#0: signal process started
+2015/04/08 13:46:36 [alert] 10216#0: unknown process 10226 exited on signal 9
+2015/04/08 16:41:09 [notice] 17260#0: signal process started
+2015/04/09 11:29:00 [alert] 26014#0: unknown process 26353 exited on signal 9
+2015/04/09 11:47:42 [notice] 27183#0: signal process started
+2015/04/09 11:57:40 [notice] 27539#0: signal process started
+2015/04/09 11:58:25 [alert] 27542#0: unknown process 27565 exited on signal 9

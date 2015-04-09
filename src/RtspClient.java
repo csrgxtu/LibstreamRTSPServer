@@ -9,9 +9,10 @@
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.InputStream;
+import java.io.PrintWriter;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.net.Socket;
-import java.util.ArrayList;
-import java.util.List;
 
 public class RtspClient {
   // rtsp server address
@@ -23,11 +24,9 @@ public class RtspClient {
   // socket that will be used through the session
   Socket socket = null;
 
-  // socket output stream
-  // OutputStream socketOut = null;
+  PrintWriter socketOut = null;
 
-  // socket input stream
-  // InputStream socketIn = null;
+  BufferedReader socketIn = null;
 
   public RtspClient(String host, int port) {
     this.host = host;
@@ -35,8 +34,10 @@ public class RtspClient {
 
     try {
       this.socket = new Socket(host, port);
-      // this.socketOut = this.socket.getOutputStream();
-      // this.socketIn = this.socket.getInputStream();
+      this.socketOut = new PrintWriter(
+        this.socket.getOutputStream(), true);
+      this.socketIn = new BufferedReader(
+        new InputStreamReader(this.socket.getInputStream()));
     } catch (IOException e) {
       System.exit(1);
     }
@@ -53,36 +54,8 @@ public class RtspClient {
   public String options() {
     String options = "OPTIONS rtsp://" + this.host + "/" + this.port
       + " RTSP/1.0\nCSeq: 1\n\n";
-    // List<Integer> res = new ArrayList<Integer>();
-    OutputStream socketOut = null;
-    InputStream socketIn = null;
 
     System.out.println(options);
-    try {
-      socketOut = this.socket.getOutputStream();
-      socketIn = this.socket.getInputStream();
-      socketOut.write(options.getBytes());
-      socketOut.flush();
-
-      //this.socketIn.read();
-      int data;
-      while ((data = socketIn.read()) != -1) {
-        // System.out.print("INFO: in where");
-        System.out.print((char)data);
-        // res += (char)data;
-        // res.add(data);
-        // res = res + (char)data;
-      }
-      socketOut.close();
-      socketIn.close();
-      System.out.println("DEBUG: after where");
-    } catch (IOException e) {
-      System.out.print("DEBUG: exception");
-      System.exit(1);
-    }
-
-    System.out.print("DEBUG: fuck");
-    // System.out.print(res.size());
 
     return null;
   }
