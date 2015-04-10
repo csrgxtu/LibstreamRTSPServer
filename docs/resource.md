@@ -26,3 +26,7 @@ FFmpeg rtsp 2 rtmp -- ./ffmpeg -i rtsp://192.168.10.93:1234 -f flv -an rtmp://12
 [Python logging](http://pymotw.com/2/logging/)
 
 [Pulling H264 video from an IP camera using Python](http://blog.mikemccandless.com/2013/11/pulling-h264-video-from-ip-camera-using.html)
+
+[视频格式那么多，MP4/RMVB/MKV/AVI ](http://www.zhihu.com/question/20997688)
+
+[视频格式与编码问题分析](http://www.cnblogs.com/reach296/p/4001976.html)
