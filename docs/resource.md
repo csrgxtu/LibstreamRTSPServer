@@ -24,3 +24,5 @@ FFmpeg rtsp 2 rtmp -- ./ffmpeg -i rtsp://192.168.10.93:1234 -f flv -an rtmp://12
 [Streaming Video with RTSP and RTP](http://www.csee.umbc.edu/~pmundur/courses/CMSC691C/lab5-kurose-ross.html)
 
 [Python logging](http://pymotw.com/2/logging/)
+
+[Pulling H264 video from an IP camera using Python](http://blog.mikemccandless.com/2013/11/pulling-h264-video-from-ip-camera-using.html)
