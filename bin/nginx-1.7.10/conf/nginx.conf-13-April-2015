@@ -1,0 +1,46 @@
+#user  nobody;
+worker_processes  1;
+
+#error_log  logs/error.log;
+#error_log  logs/error.log  notice;
+#error_log  logs/error.log  info;
+
+#pid        logs/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+rtmp {
+
+  server {
+
+    listen 1935;
+
+    chunk_size 4000;
+
+    application live {
+      live on;
+
+      record all;
+      record_path /home/archer/Documents/LibstreamRTSPServer/data/records;
+      record_max_size 100M;
+      record_unique off;
+    }
+  }
+}
+
+http {
+  include mime.types;
+  default_type application/octet-stream;
+
+  server {
+    listen 8080;
+
+    location = /stats {
+      rtmp_stat all;
+      rtmp_stat_stylesheet stat.xsl;
+    }
+  }
+}
