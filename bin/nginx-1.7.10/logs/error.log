@@ -7385,3 +7385,20 @@
 2015/04/29 09:05:16 [info] 3918#0: *8 connect: app='live' args='' flashver='LNX 16,0,0,296' swf_url='http://localhost:8080/SportEx/js/home/videolive/jwplayer/jwplayer.flash.swf' tc_url='rtmp://127.0.0.1:1935/live/' page_url='http://localhost:8080/SportEx/jsp/home/videolive/videoindex.jsp#' acodecs=3575 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
 2015/04/29 09:05:16 [info] 3918#0: *8 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
 2015/04/29 09:05:16 [info] 3918#0: *8 play: name='Amba011430269500842' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/14 23:52:22 [notice] 5700#0: using the "epoll" event method
+2015/05/14 23:52:22 [notice] 5700#0: nginx/1.7.10
+2015/05/14 23:52:22 [notice] 5700#0: built by gcc 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+2015/05/14 23:52:22 [notice] 5700#0: OS: Linux 3.16.0-30-generic
+2015/05/14 23:52:22 [notice] 5700#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/14 23:52:22 [notice] 5701#0: start worker processes
+2015/05/14 23:52:22 [notice] 5701#0: start worker process 5702
+2015/05/14 23:52:57 [error] 5702#0: *1 open() "/home/archer/Documents/LibstreamRTSPServer/bin/nginx-1.7.10/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:7000"
+2015/05/14 23:53:16 [info] 5702#0: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:7000
+2015/05/14 23:53:19 [notice] 5702#0: signal 15 (SIGTERM) received, exiting
+2015/05/14 23:53:19 [notice] 5701#0: signal 15 (SIGTERM) received, exiting
+2015/05/14 23:53:19 [info] 5702#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/14 23:53:19 [notice] 5702#0: exiting
+2015/05/14 23:53:19 [notice] 5702#0: exit
+2015/05/14 23:53:19 [notice] 5701#0: signal 17 (SIGCHLD) received
+2015/05/14 23:53:19 [notice] 5701#0: worker process 5702 exited with code 0
+2015/05/14 23:53:19 [notice] 5701#0: exit

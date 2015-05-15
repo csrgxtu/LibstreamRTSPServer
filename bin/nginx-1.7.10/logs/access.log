@@ -1049,3 +1049,6 @@
 127.0.0.1 [29/Apr/2015:09:03:10 +0800] PLAY "vod" "Amba011430214540378" "" - 551 594815 "http://localhost:8080/SportEx/jsp/system/camer/vod.jsp?fileName=Amba011430214540378" "LNX 16,0,0,296" (1s)
 127.0.0.1 [29/Apr/2015:09:03:17 +0800] PLAY "vod" "Amba011430208540071" "" - 551 584533 "http://localhost:8080/SportEx/jsp/system/camer/vod.jsp?fileName=Amba011430208540071" "LNX 16,0,0,296" (1s)
 127.0.0.1 [29/Apr/2015:09:03:27 +0800] PLAY "vod" "Amba011430182920801" "" - 551 604881 "http://localhost:8080/SportEx/jsp/system/camer/vod.jsp?fileName=Amba011430182920801" "LNX 16,0,0,296" (2s)
+127.0.0.1 - - [14/May/2015:23:52:57 -0400] "GET /stat HTTP/1.1" 200 647 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36"
+127.0.0.1 - - [14/May/2015:23:52:57 -0400] "GET /stat.xsl HTTP/1.1" 200 11765 "http://localhost:7000/stat" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36"
+127.0.0.1 - - [14/May/2015:23:52:57 -0400] "GET /favicon.ico HTTP/1.1" 404 571 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36"
