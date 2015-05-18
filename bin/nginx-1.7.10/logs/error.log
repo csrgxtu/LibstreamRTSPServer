@@ -7613,3 +7613,40 @@
 2015/05/17 22:57:38 [notice] 7750#0: signal 17 (SIGCHLD) received
 2015/05/17 22:57:38 [notice] 7750#0: worker process 7751 exited with code 0
 2015/05/17 22:57:38 [notice] 7750#0: exit
+2015/05/17 23:22:28 [notice] 8371#0: using the "epoll" event method
+2015/05/17 23:22:28 [notice] 8371#0: nginx/1.7.10
+2015/05/17 23:22:28 [notice] 8371#0: built by gcc 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+2015/05/17 23:22:28 [notice] 8371#0: OS: Linux 3.16.0-30-generic
+2015/05/17 23:22:28 [notice] 8371#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/17 23:22:28 [notice] 8372#0: start worker processes
+2015/05/17 23:22:28 [notice] 8372#0: start worker process 8373
+2015/05/17 23:23:31 [info] 8373#0: *1 client connected '127.0.0.1'
+2015/05/17 23:23:31 [info] 8373#0: *1 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 23:23:31 [info] 8373#0: *1 publish: name='12d5c973-c023-42b5-8379-b5e52e2c14b5' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 23:23:31 [info] 8373#0: *1 notify: publish '127.0.0.1:8080/ebang/camera_createVideo.action', client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 23:23:36 [info] 8373#0: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 23:23:36 [info] 8373#0: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 23:23:36 [info] 8373#0: *1 notify: publish_done '127.0.0.1:8080/ebang/camera_updateVideo.action', client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 23:23:36 [error] 8373#0: recv() failed (111: Connection refused)
+2015/05/17 23:26:02 [info] 8373#0: *4 client connected '127.0.0.1'
+2015/05/17 23:26:02 [info] 8373#0: *4 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 23:26:02 [info] 8373#0: *4 publish: name='775a8244-a2a9-4ba9-8e23-2b1765c27d96' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 23:26:02 [info] 8373#0: *4 notify: publish '127.0.0.1:8080/ebang/camera_createVideo.action', client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 23:26:19 [info] 8373#0: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 23:26:19 [info] 8373#0: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 23:26:19 [info] 8373#0: *4 notify: publish_done '127.0.0.1:8080/ebang/camera_updateVideo.action', client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 23:26:19 [error] 8373#0: recv() failed (111: Connection refused)
+2015/05/17 23:35:47 [notice] 8966#0: signal process started
+2015/05/17 23:35:47 [notice] 8372#0: signal 15 (SIGTERM) received, exiting
+2015/05/17 23:35:47 [notice] 8373#0: exiting
+2015/05/17 23:35:47 [notice] 8373#0: exit
+2015/05/17 23:35:47 [notice] 8372#0: signal 17 (SIGCHLD) received
+2015/05/17 23:35:47 [notice] 8372#0: worker process 8373 exited with code 0
+2015/05/17 23:35:47 [notice] 8372#0: exit
+2015/05/17 23:35:48 [notice] 8967#0: using the "epoll" event method
+2015/05/17 23:35:48 [notice] 8967#0: nginx/1.7.10
+2015/05/17 23:35:48 [notice] 8967#0: built by gcc 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+2015/05/17 23:35:48 [notice] 8967#0: OS: Linux 3.16.0-30-generic
+2015/05/17 23:35:48 [notice] 8967#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/17 23:35:48 [notice] 8968#0: start worker processes
+2015/05/17 23:35:48 [notice] 8968#0: start worker process 8969
