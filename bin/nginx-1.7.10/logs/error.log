@@ -7402,3 +7402,214 @@
 2015/05/14 23:53:19 [notice] 5701#0: signal 17 (SIGCHLD) received
 2015/05/14 23:53:19 [notice] 5701#0: worker process 5702 exited with code 0
 2015/05/14 23:53:19 [notice] 5701#0: exit
+2015/05/15 02:47:43 [notice] 8587#0: using the "epoll" event method
+2015/05/15 02:47:43 [notice] 8587#0: nginx/1.7.10
+2015/05/15 02:47:43 [notice] 8587#0: built by gcc 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+2015/05/15 02:47:43 [notice] 8587#0: OS: Linux 3.16.0-30-generic
+2015/05/15 02:47:43 [notice] 8587#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/15 02:47:43 [notice] 8588#0: start worker processes
+2015/05/15 02:47:43 [notice] 8588#0: start worker process 8589
+2015/05/15 02:52:16 [info] 8589#0: *1 client connected '127.0.0.1'
+2015/05/15 02:52:16 [info] 8589#0: *1 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/15 02:52:16 [info] 8589#0: *1 publish: name='what123456' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/15 02:52:35 [info] 8589#0: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/15 02:52:35 [info] 8589#0: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/15 03:15:25 [info] 8589#0: *2 client connected '127.0.0.1'
+2015/05/15 03:15:25 [info] 8589#0: *2 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/15 03:15:25 [info] 8589#0: *2 publish: name='what123456' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/15 03:15:32 [info] 8589#0: *2 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/15 03:15:32 [info] 8589#0: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/15 03:44:37 [info] 8589#0: *3 client connected '127.0.0.1'
+2015/05/15 03:44:37 [info] 8589#0: *3 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/15 03:44:37 [info] 8589#0: *3 publish: name='what123456' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/15 03:44:52 [info] 8589#0: *3 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/15 03:44:52 [info] 8589#0: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/15 08:38:58 [info] 8589#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/15 20:56:21 [notice] 8588#0: signal 17 (SIGCHLD) received
+2015/05/15 20:56:21 [notice] 8588#0: signal 15 (SIGTERM) received, exiting
+2015/05/15 20:56:21 [notice] 8589#0: signal 15 (SIGTERM) received, exiting
+2015/05/15 20:56:21 [info] 8589#0: epoll_wait() failed (4: Interrupted system call)
+2015/05/15 20:56:21 [notice] 8589#0: exiting
+2015/05/15 20:56:21 [notice] 8589#0: exit
+2015/05/15 20:56:21 [notice] 8588#0: signal 17 (SIGCHLD) received
+2015/05/15 20:56:21 [notice] 8588#0: signal 17 (SIGCHLD) received
+2015/05/15 20:56:21 [notice] 8588#0: worker process 8589 exited with code 0
+2015/05/15 20:56:21 [notice] 8588#0: exit
+2015/05/17 21:43:04 [notice] 4988#0: using the "epoll" event method
+2015/05/17 21:43:04 [notice] 4988#0: nginx/1.7.10
+2015/05/17 21:43:04 [notice] 4988#0: built by gcc 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+2015/05/17 21:43:04 [notice] 4988#0: OS: Linux 3.16.0-30-generic
+2015/05/17 21:43:04 [notice] 4988#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/17 21:43:04 [notice] 4989#0: start worker processes
+2015/05/17 21:43:04 [notice] 4989#0: start worker process 4990
+2015/05/17 21:47:01 [info] 4990#0: *1 client connected '127.0.0.1'
+2015/05/17 21:47:01 [info] 4990#0: *1 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 21:47:01 [info] 4990#0: *1 publish: name='what123456' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 21:47:08 [info] 4990#0: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 21:47:08 [info] 4990#0: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 21:59:31 [info] 4990#0: *2 client connected '127.0.0.1'
+2015/05/17 21:59:31 [info] 4990#0: *2 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 21:59:31 [info] 4990#0: *2 publish: name='what123456' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 21:59:37 [info] 4990#0: *2 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 21:59:37 [info] 4990#0: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:02:31 [info] 4990#0: *3 client connected '127.0.0.1'
+2015/05/17 22:02:31 [info] 4990#0: *3 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:02:31 [info] 4990#0: *3 publish: name='what123456' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:02:48 [info] 4990#0: *3 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:02:48 [info] 4990#0: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:09:31 [info] 4990#0: *4 client connected '127.0.0.1'
+2015/05/17 22:09:31 [info] 4990#0: *4 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:09:31 [info] 4990#0: *4 publish: name='703b3a6c-353e-4de9-9523-c8df8eb591ff' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:09:55 [info] 4990#0: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:09:55 [info] 4990#0: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:16:41 [notice] 6372#0: signal process started
+2015/05/17 22:16:41 [notice] 4989#0: signal 15 (SIGTERM) received, exiting
+2015/05/17 22:16:41 [notice] 4990#0: exiting
+2015/05/17 22:16:41 [notice] 4990#0: exit
+2015/05/17 22:16:41 [notice] 4989#0: signal 17 (SIGCHLD) received
+2015/05/17 22:16:41 [notice] 4989#0: worker process 4990 exited with code 0
+2015/05/17 22:16:41 [notice] 4989#0: exit
+2015/05/17 22:16:43 [notice] 6373#0: using the "epoll" event method
+2015/05/17 22:16:43 [notice] 6373#0: nginx/1.7.10
+2015/05/17 22:16:43 [notice] 6373#0: built by gcc 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+2015/05/17 22:16:43 [notice] 6373#0: OS: Linux 3.16.0-30-generic
+2015/05/17 22:16:43 [notice] 6373#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/17 22:16:43 [notice] 6374#0: start worker processes
+2015/05/17 22:16:43 [notice] 6374#0: start worker process 6375
+2015/05/17 22:17:31 [info] 6375#0: *1 client connected '127.0.0.1'
+2015/05/17 22:17:31 [info] 6375#0: *1 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:17:31 [info] 6375#0: *1 publish: name='a0907819-3f04-470f-9417-c3931def8b11' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:17:31 [info] 6375#0: *1 notify: publish '127.0.0.1:8080/ebang/test', client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:17:31 [info] 6375#0: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:17:31 [info] 6375#0: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:22:31 [info] 6375#0: *3 client connected '127.0.0.1'
+2015/05/17 22:22:31 [info] 6375#0: *3 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:22:31 [info] 6375#0: *3 publish: name='1d6202ff-6cb8-473a-8b7a-7714dc2ec7c9' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:22:31 [info] 6375#0: *3 notify: publish '127.0.0.1:8080/ebang/test', client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:22:31 [info] 6375#0: *3 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:22:31 [info] 6375#0: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:23:48 [notice] 6661#0: signal process started
+2015/05/17 22:23:48 [notice] 6374#0: signal 15 (SIGTERM) received, exiting
+2015/05/17 22:23:48 [notice] 6375#0: exiting
+2015/05/17 22:23:48 [notice] 6375#0: exit
+2015/05/17 22:23:48 [notice] 6374#0: signal 17 (SIGCHLD) received
+2015/05/17 22:23:48 [notice] 6374#0: worker process 6375 exited with code 0
+2015/05/17 22:23:48 [notice] 6374#0: exit
+2015/05/17 22:23:53 [notice] 6682#0: using the "epoll" event method
+2015/05/17 22:23:53 [notice] 6682#0: nginx/1.7.10
+2015/05/17 22:23:53 [notice] 6682#0: built by gcc 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+2015/05/17 22:23:53 [notice] 6682#0: OS: Linux 3.16.0-30-generic
+2015/05/17 22:23:53 [notice] 6682#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/17 22:23:53 [notice] 6683#0: start worker processes
+2015/05/17 22:23:53 [notice] 6683#0: start worker process 6684
+2015/05/17 22:23:58 [notice] 6686#0: signal process started
+2015/05/17 22:23:58 [notice] 6683#0: signal 15 (SIGTERM) received, exiting
+2015/05/17 22:23:58 [notice] 6684#0: exiting
+2015/05/17 22:23:58 [notice] 6684#0: exit
+2015/05/17 22:23:58 [notice] 6683#0: signal 17 (SIGCHLD) received
+2015/05/17 22:23:58 [notice] 6683#0: worker process 6684 exited with code 0
+2015/05/17 22:23:58 [notice] 6683#0: exit
+2015/05/17 22:24:18 [notice] 6706#0: using the "epoll" event method
+2015/05/17 22:24:18 [notice] 6706#0: nginx/1.7.10
+2015/05/17 22:24:18 [notice] 6706#0: built by gcc 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+2015/05/17 22:24:18 [notice] 6706#0: OS: Linux 3.16.0-30-generic
+2015/05/17 22:24:18 [notice] 6706#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/17 22:24:18 [notice] 6707#0: start worker processes
+2015/05/17 22:24:18 [notice] 6707#0: start worker process 6708
+2015/05/17 22:25:31 [info] 6708#0: *1 client connected '127.0.0.1'
+2015/05/17 22:25:31 [info] 6708#0: *1 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:25:31 [info] 6708#0: *1 publish: name='de8ab0e2-c773-406e-b57f-5cb83f84d3b4' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:25:55 [info] 6708#0: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:25:55 [info] 6708#0: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:27:04 [notice] 6927#0: signal process started
+2015/05/17 22:27:04 [notice] 6707#0: signal 15 (SIGTERM) received, exiting
+2015/05/17 22:27:04 [notice] 6708#0: exiting
+2015/05/17 22:27:04 [notice] 6708#0: exit
+2015/05/17 22:27:04 [notice] 6707#0: signal 17 (SIGCHLD) received
+2015/05/17 22:27:04 [notice] 6707#0: worker process 6708 exited with code 0
+2015/05/17 22:27:04 [notice] 6707#0: exit
+2015/05/17 22:27:05 [notice] 6928#0: using the "epoll" event method
+2015/05/17 22:27:05 [notice] 6928#0: nginx/1.7.10
+2015/05/17 22:27:05 [notice] 6928#0: built by gcc 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+2015/05/17 22:27:05 [notice] 6928#0: OS: Linux 3.16.0-30-generic
+2015/05/17 22:27:05 [notice] 6928#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/17 22:27:05 [notice] 6929#0: start worker processes
+2015/05/17 22:27:05 [notice] 6929#0: start worker process 6930
+2015/05/17 22:27:32 [info] 6930#0: *1 client connected '127.0.0.1'
+2015/05/17 22:27:32 [info] 6930#0: *1 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:27:32 [info] 6930#0: *1 publish: name='525e3eb5-4172-4588-99ce-cf5d8ca7ef84' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:27:32 [info] 6930#0: *1 notify: publish '127.0.0.1:8080/ebang/camera_test.action', client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:28:39 [info] 6930#0: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:28:39 [info] 6930#0: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:30:31 [info] 6930#0: *3 client connected '127.0.0.1'
+2015/05/17 22:30:31 [info] 6930#0: *3 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:30:31 [info] 6930#0: *3 publish: name='0fa15575-f110-4655-aca7-00b4de62d103' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:30:31 [info] 6930#0: *3 notify: publish '127.0.0.1:8080/ebang/camera_test.action', client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:30:38 [info] 6930#0: *3 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:30:38 [info] 6930#0: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:32:01 [info] 6930#0: *5 client connected '127.0.0.1'
+2015/05/17 22:32:01 [info] 6930#0: *5 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:32:01 [info] 6930#0: *5 publish: name='226cc7f2-7ac1-47aa-b857-2e566c7e7b65' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:32:01 [info] 6930#0: *5 notify: publish '127.0.0.1:8080/ebang/camera_test.action', client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:32:03 [info] 6930#0: *5 recv() failed (104: Connection reset by peer), client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:32:03 [info] 6930#0: *5 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:32:03 [info] 6930#0: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:40:30 [notice] 7386#0: signal process started
+2015/05/17 22:40:30 [notice] 6929#0: signal 15 (SIGTERM) received, exiting
+2015/05/17 22:40:30 [notice] 6930#0: exiting
+2015/05/17 22:40:30 [notice] 6930#0: exit
+2015/05/17 22:40:30 [notice] 6929#0: signal 17 (SIGCHLD) received
+2015/05/17 22:40:30 [notice] 6929#0: worker process 6930 exited with code 0
+2015/05/17 22:40:30 [notice] 6929#0: exit
+2015/05/17 22:40:31 [notice] 7387#0: using the "epoll" event method
+2015/05/17 22:40:31 [notice] 7387#0: nginx/1.7.10
+2015/05/17 22:40:31 [notice] 7387#0: built by gcc 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+2015/05/17 22:40:31 [notice] 7387#0: OS: Linux 3.16.0-30-generic
+2015/05/17 22:40:31 [notice] 7387#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/17 22:40:31 [notice] 7388#0: start worker processes
+2015/05/17 22:40:31 [notice] 7388#0: start worker process 7389
+2015/05/17 22:41:31 [info] 7389#0: *1 client connected '127.0.0.1'
+2015/05/17 22:41:31 [info] 7389#0: *1 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:41:31 [info] 7389#0: *1 publish: name='0bee25b3-0283-4bc6-91e3-47ea1fc7e0ae' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:41:31 [info] 7389#0: *1 notify: publish '127.0.0.1:8080/ebang/camera_createVideo.action', client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:42:00 [info] 7389#0: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:42:00 [info] 7389#0: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:44:31 [info] 7389#0: *3 client connected '127.0.0.1'
+2015/05/17 22:44:31 [info] 7389#0: *3 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:44:31 [info] 7389#0: *3 publish: name='eed4eb13-7def-455c-99bb-0a2a7583fa5c' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:44:31 [info] 7389#0: *3 notify: publish '127.0.0.1:8080/ebang/camera_createVideo.action', client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:44:50 [info] 7389#0: *3 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:44:50 [info] 7389#0: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:48:18 [notice] 7727#0: signal process started
+2015/05/17 22:48:18 [notice] 7388#0: signal 15 (SIGTERM) received, exiting
+2015/05/17 22:48:18 [notice] 7389#0: exiting
+2015/05/17 22:48:18 [notice] 7389#0: exit
+2015/05/17 22:48:18 [notice] 7388#0: signal 17 (SIGCHLD) received
+2015/05/17 22:48:18 [notice] 7388#0: worker process 7389 exited with code 0
+2015/05/17 22:48:18 [notice] 7388#0: exit
+2015/05/17 22:49:06 [notice] 7749#0: using the "epoll" event method
+2015/05/17 22:49:06 [notice] 7749#0: nginx/1.7.10
+2015/05/17 22:49:06 [notice] 7749#0: built by gcc 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+2015/05/17 22:49:06 [notice] 7749#0: OS: Linux 3.16.0-30-generic
+2015/05/17 22:49:06 [notice] 7749#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/05/17 22:49:06 [notice] 7750#0: start worker processes
+2015/05/17 22:49:06 [notice] 7750#0: start worker process 7751
+2015/05/17 22:50:01 [info] 7751#0: *1 client connected '127.0.0.1'
+2015/05/17 22:50:01 [info] 7751#0: *1 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:50:01 [info] 7751#0: *1 publish: name='608a70c4-f7a3-41ed-a617-ff4fb895d64a' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:50:01 [info] 7751#0: *1 notify: publish '127.0.0.1:8080/ebang/camera_createVideo.action', client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:50:09 [info] 7751#0: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:50:09 [info] 7751#0: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:50:09 [info] 7751#0: *1 notify: publish_done '127.0.0.1:8080/ebang/camera_updateVideo.action', client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:50:09 [error] 7751#0: recv() failed (111: Connection refused)
+2015/05/17 22:51:31 [info] 7751#0: *4 client connected '127.0.0.1'
+2015/05/17 22:51:31 [info] 7751#0: *4 connect: app='live' args='' flashver='' swf_url='' tc_url='' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:51:31 [info] 7751#0: *4 publish: name='c37cba40-73cc-4b2d-90f5-8e57aedc7816' args='' type= silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:51:31 [info] 7751#0: *4 notify: publish '127.0.0.1:8080/ebang/camera_createVideo.action', client: 127.0.0.1, server: 0.0.0.0:1935
+2015/05/17 22:57:38 [notice] 8012#0: signal process started
+2015/05/17 22:57:38 [notice] 7750#0: signal 15 (SIGTERM) received, exiting
+2015/05/17 22:57:38 [notice] 7751#0: exiting
+2015/05/17 22:57:38 [notice] 7751#0: exit
+2015/05/17 22:57:38 [notice] 7750#0: signal 17 (SIGCHLD) received
+2015/05/17 22:57:38 [notice] 7750#0: worker process 7751 exited with code 0
+2015/05/17 22:57:38 [notice] 7750#0: exit
